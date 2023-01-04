@@ -11,6 +11,10 @@
 		564BE6872963421D00A1E5A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BE6862963421D00A1E5A9 /* ContentView.swift */; };
 		564BE6892963421E00A1E5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564BE6882963421E00A1E5A9 /* Assets.xcassets */; };
 		564BE68C2963421E00A1E5A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564BE68B2963421E00A1E5A9 /* Preview Assets.xcassets */; };
+		564BE69329634B3B00A1E5A9 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BE69229634B3B00A1E5A9 /* SwiftUIView.swift */; };
+		564BE6992965F6FE00A1E5A9 /* QuotesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 564BE6972965F6FE00A1E5A9 /* QuotesModel.xcdatamodeld */; };
+		564BE69B2965F72700A1E5A9 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BE69A2965F72700A1E5A9 /* AppViewModel.swift */; };
+		564BE69D2965F87F00A1E5A9 /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BE69C2965F87F00A1E5A9 /* DataScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		564BE6862963421D00A1E5A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		564BE6882963421E00A1E5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		564BE68B2963421E00A1E5A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		564BE69229634B3B00A1E5A9 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		564BE6982965F6FE00A1E5A9 /* QuotesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuotesModel.xcdatamodel; sourceTree = "<group>"; };
+		564BE69A2965F72700A1E5A9 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		564BE69C2965F87F00A1E5A9 /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		564BE6832963421D00A1E5A9 /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				564BE69229634B3B00A1E5A9 /* SwiftUIView.swift */,
 				564BE6842963421D00A1E5A9 /* QuotesApp.swift */,
 				564BE6862963421D00A1E5A9 /* ContentView.swift */,
 				564BE6882963421E00A1E5A9 /* Assets.xcassets */,
 				564BE68A2963421E00A1E5A9 /* Preview Content */,
+				564BE6972965F6FE00A1E5A9 /* QuotesModel.xcdatamodeld */,
+				564BE69A2965F72700A1E5A9 /* AppViewModel.swift */,
+				564BE69C2965F87F00A1E5A9 /* DataScannerView.swift */,
 			);
 			path = Quotes;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564BE69B2965F72700A1E5A9 /* AppViewModel.swift in Sources */,
+				564BE69D2965F87F00A1E5A9 /* DataScannerView.swift in Sources */,
 				564BE6872963421D00A1E5A9 /* ContentView.swift in Sources */,
 				564BE6852963421D00A1E5A9 /* QuotesApp.swift in Sources */,
+				564BE6992965F6FE00A1E5A9 /* QuotesModel.xcdatamodeld in Sources */,
+				564BE69329634B3B00A1E5A9 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +286,7 @@
 				DEVELOPMENT_TEAM = 44QNX63HR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan barcode and text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +316,7 @@
 				DEVELOPMENT_TEAM = 44QNX63HR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan barcode and text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +357,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		564BE6972965F6FE00A1E5A9 /* QuotesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				564BE6982965F6FE00A1E5A9 /* QuotesModel.xcdatamodel */,
+			);
+			currentVersion = 564BE6982965F6FE00A1E5A9 /* QuotesModel.xcdatamodel */;
+			path = QuotesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 564BE6792963421D00A1E5A9 /* Project object */;
 }
