@@ -1,5 +1,4 @@
-# Quotes
-Quotes App Scanne your Fav quotes from books you read and save it ,So you can find it whenever you want in one place 
+
 <!-- PROJECT LOGO -->
 <div>
 <h3><img align="left" width="100" height="100" src="logo quotes f8-2.png"> <br/> iQoute <br/>
