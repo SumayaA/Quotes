@@ -1,7 +1,7 @@
 
 <!-- PROJECT LOGO -->
 <div>
-<h3><img align="left" width="100" height="100" src="logo quotes f8-2.png"> <br/> iQoute <br/>
+<h3><img align="left" width="100" height="100" src="logo.png"> <br/> iQoute <br/>
 <a href="https://drive.google.com/file/d/1jhqD3NLq1ruabJON4HXeXB5yQlgDmdWS/view?usp=sharing">Demo</a> <br/> </h3>   
  </div>   
  <br>
