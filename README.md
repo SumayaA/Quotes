@@ -38,7 +38,7 @@ Help reader to save their best quotes.
 
 ## Challenge Summary
 <p align="center">
-<img align="center" width=70% height=70% src="MEMORYCARD.001.png">
+<img align="center" width=90% height=70% src="AppOverview - iQuote.jpeg">
 </p>
 
 ## Success Criteria
