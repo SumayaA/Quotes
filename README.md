@@ -47,9 +47,9 @@ Help reader to save their best quotes.
 - Localize your app to support multiple languages ✅
 - Build an app that supports Apple’s built-in accessibility settings ✅
 
-## Team
-#### WIN
-<a href="https://www.linkedin.com/in/wedad-almehmadi-701476200/">Sumaya Alzahrani</a> - <a href="https://www.linkedin.com/in/norah-alotaibi-0a34a3252/">Sara Alhumidi</a> 
+## Team Members
+
+<a href="https://www.linkedin.com/in/SumayaAlzahrani/">Sumaya Alzahrani</a> - <a href="https://www.linkedin.com/in/sara-a-mohammed101/">Sara Alhumidi</a> 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
