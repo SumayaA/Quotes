@@ -37,7 +37,7 @@ Help reader to save their best quotes.
 
 
 ## Challenge Summary
-<p align="center">
+<p align="left">
 <img align="center" width=90% height=70% src="AppOverview - iQuote.jpeg">
 </p>
 
